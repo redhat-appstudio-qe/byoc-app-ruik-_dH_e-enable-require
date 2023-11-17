@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: mjne
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-vhjl-tenant/byoc-app-ruik/mjne@sha256:df03ffb789d76a1ad9f1f27c3e3ffec41de3b32fb41cbe2c6ee2c81ee68fe5bd
         name: my-java-quarkus
         ports:
         - containerPort: 8081
